@@ -34,6 +34,6 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
   },
-  "include": ["src/**/index.ts"],
+  "include": ["src/**/index.ts", "src/ejercioXlase.ts"],
   "exclude": ["node_modules"]
 }
