@@ -67,7 +67,7 @@ router.post("/", (req: Request, res: Response) => {
     nombre,
     curso,
     activo,
-    ...(typeof bootcamp === "string" ? { bootcamp } : {}),
+    ...(typeof bootcamp === "string" ? { bootcamp } : {}), /*un termino que la IA me recomendo, estare investigando de que va*/
   };
   listaEstudiantes.push(nuevoEstudiante);
   return res.status(201).json({
